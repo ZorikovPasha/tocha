@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="#">
+            <img src="images/logo.png" alt="">
+          </a>
+          <div class="header__enter">
+            <a class="header__login-btn" href="#">Вход</a>
+            <a class="header__signup-btn btn" href="#">Регистрация</a>
+          </div>
+          <div class="menu-btn">
+            <div class="menu-btn__line-1"></div>
+            <div class="menu-btn__line-2" ></div>
+            <div class="menu-btn__line-3" ></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="login-form-wrapper">
+        <form class="login-form form" action="#">
+          <div class="form__close">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="form__title">Вход</div>
+          <input class="form__tel form__input" type="number" placeholder="Телефон" required>
+          
+          <div class="form__password">
+            <input class="form__password-input form__input" type="password" placeholder="Пароль" required>
+            <a class="form__password-display" href="#"></a>
+          </div>
+          
+          <a class="form__forgot" href="#">Напомнить пароль</a>
+          <a class="form__btn btn" href="#">Войти</a>
+        </form>
+      </div>
+  
+      <div class="signup-form-wrapper">
+        <form action="#" class="signup-form form">
+          <div class="form__close">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="form__title">Регистрация</div>
+          <input class="form__tel form__input" type="number" placeholder="Телефон" required>
+          <input class="signup-form__email form__input" type="email" placeholder="Электронная почта" required>
+  
+          <div class="form__password">
+            <input class="form__password-input form__input" type="password" placeholder="Пароль" required>
+            <a class="form__password-display" href="#"></a>
+          </div>
+          
+          <div class="signup-form__repeat">
+            <input class="signup-form__repeat-input form__input" type="password" placeholder="Повторите пароль" required>
+            <a class="form__password-display" href="#"></a>
+          </div>
+  
+          <a class="form__btn btn" href="#">Войти</a>
+        </form>
+      </div>
+  
+    </header>
+
+    <main class="main">
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+            <div class="top__content">
+              <h1 class="top__title">
+                <p>Telegram чат</p> на вашем сайте
+              </h1>
+              <p class="top__text">Общение с клиентами станет простым
+                  и удобным, а подключение займет 5 минут.
+                  Первый месяц — <span>бесплатно!</span>
+              </p>
+              <a class="top__btn btn" href="#">Подключить</a>
+            </div>
+            <img class="top__img" src="images/top-img.svg">
+          </div>
+        </div>
+      </section>
+    
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__info">
+              <h3 class="about__title">Tocha Online — это</h3>
+              <ul class="about-list">
+                <li class="about-list__item about-list__item--1">
+                  <div class="about-list__item-title">Ничего лишнего</div>
+                  <div class="about-list__item-text">Отсутствие лишних приложений для операторов. Оператору не нужно учиться работать с чатом</div>
+                </li>
+                <li class="about-list__item about-list__item--2">
+                  <div class="about-list__item-title">Простота</div>
+                  <div class="about-list__item-text">Простая установка на сайт</div>
+                </li>
+                <li class="about-list__item about-list__item--3">
+                  <div class="about-list__item-title">Несколько ассистентов</div>
+                  <div class="about-list__item-text">Возможность подключения нескольких ассистентов</div>
+                </li>
+                <li class="about-list__item about-list__item--4">
+                  <div class="about-list__item-title">Кастомизация</div>
+                  <div class="about-list__item-text">Настройка интерфейса под нужды сайта</div>
+                </li>
+              </ul>
+            </div>
+            <img class="about__img" src="images/about-img.svg" alt="">
+          </div>
+        </div>
+      </section>
+    
+    <section class="plans">
+      <div class="container">
+        <h3 class="plans__title">Тарифы</h3>
+        <div class="plans__subtitle">Стоимость зависит от трафика сайта</div>
+        <div class="plans__items">
+          <div class="plans__item">
+            <div class="plans__item-box">
+              <div class="plans__item-type">Бесплатно</div>
+              <div class="plans__item-limit">Пробный период на 1 месяц</div>
+              <div class="plans__item-fee">0₽/первый месяц</div>
+              <a class="plans__item-btn btn" href="#">Подключить за 0₽</a>
+            </div>
+          </div>
+          <div class="plans__item">
+            <div class="plans__item-box">
+              <div class="plans__item-type">Базовый</div>
+              <div class="plans__item-limit">Менее 1000 посещений в сутки</div>
+              <div class="plans__item-fee">200₽/месяц</div>
+              <a class="plans__item-btn btn" href="#">Подключить за 200₽</a>
+            </div>
+          </div>
+          <div class="plans__item">
+            <div class="plans__item-box">
+              <div class="plans__item-type">Премиум</div>
+              <div class="plans__item-limit ">Более 1000 посещений в сутки</div>
+              <div class="plans__item-fee">500₽/месяц</div>
+              <a class="plans__item-btn btn" href="#">Подключить за 500₽</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    
+      <section class="steps">
+        <div class="background"></div>
+        <div class="container">
+          <h3 class="steps__title">Всего 3 шага для подключения Telegram чата</h3>
+          <div class="steps__items">
+            <div class="steps__item steps__item--decor">
+              <div class="steps__item-num">1</div>
+              <div class="steps__item-name">Telegram bot</div>
+              <div class="steps__item-descr">Вы создаёте Telegram <br> бота для вашего сайта</div>
+              <div class="steps__item-images">
+                <img class="steps__item-img" src="images/step-1.png" >
+              </div>
+            </div>
+            <div class="steps__item steps__item--decor">
+              <div class="steps__item-num">2</div>
+              <div class="steps__item-name">Подключение Tocha</div>
+              <div class="steps__item-descr">Tocha подключает Telegram <br> бота к вашиму сайту</div>
+              <div class="steps__item-images">
+                <img class="steps__item-img" src="images/step-2.png" >
+              </div>
+            </div>
+            <div class="steps__item">
+              <div class="steps__item-num">3</div>
+              <div class="steps__item-name">Telegram-чат</div>
+              <div class="steps__item-descr">Консультант отвечает <br> на вопросы посетителей сайта</div>
+              <div class="steps__item-images">
+                <img class="steps__item-img" src="images/step-3.png" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="reviews">
+        <div class="container">
+          <h3 class="reviews__title">Отзывы клиентов</h3>
+    
+          <div class="reviews__slider">
+            <div class="reviews__slider-item slider-item">
+              <div class="slider-item__content">
+                <div class="slider-item__title">Как же удобно!</div>
+                <div class="slider-item__text">В рамках спецификации современных стандартов, базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут преданы социально-демократической анафеме.</div>  
+              </div>
+              <div class="slider-item__reviewer">
+                <img class="slider-item__img" src="images/reviewer-1.png" alt="">
+                <div class="slider-item__reviewer-info">
+                  <div class="slider-item__reviewer-name">Анна Купер</div>
+                  <div class="slider-item__reviewer-site">romashka.ru</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__slider-item slider-item">
+              <div class="slider-item__content">
+                <div class="slider-item__title">Теперь мы идем в ногу со временем</div>
+                <div class="slider-item__text">А ещё интерактивные прототипы превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Банальные, но неопровержимые выводы, а также тщательные исследования конкурентов формируют сеть.</div>  
+              </div>
+              <div class="slider-item__reviewer slider-item__reviewer--2">
+                <img class="slider-item__img" src="images/reviewer-2.png" alt="">
+                <div class="slider-item__reviewer-info">
+                  <div class="slider-item__reviewer-name">Андрей Васильев</div>
+                  <div class="slider-item__reviewer-site">samogon-ont.ru</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__slider-item slider-item">
+              <div class="slider-item__content">
+                <div class="slider-item__title">Как же удобно!</div>
+                <div class="slider-item__text">В рамках спецификации современных стандартов, базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут преданы социально-демократической анафеме.</div>  
+              </div>
+              <div class="slider-item__reviewer">
+                <img class="slider-item__img" src="images/reviewer-1.png" alt="">
+                <div class="slider-item__reviewer-info">
+                  <div class="slider-item__reviewer-name">Анна Купер</div>
+                  <div class="slider-item__reviewer-site">romashka.ru</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__slider-item slider-item">
+              <div class="slider-item__content">
+                <div class="slider-item__title">Теперь мы идем в ногу со временем</div>
+                <div class="slider-item__text">А ещё интерактивные прототипы превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Банальные, но неопровержимые выводы, а также тщательные исследования конкурентов формируют сеть.</div>  
+              </div>
+              <div class="slider-item__reviewer">
+                <img class="slider-item__img" src="images/reviewer-2.png" alt="">
+                <div class="slider-item__reviewer-info">
+                  <div class="slider-item__reviewer-name">Андрей Васильев</div>
+                  <div class="slider-item__reviewer-site">samogon-ont.ru</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__slider-item slider-item">
+              <div class="slider-item__content">
+                <div class="slider-item__title">Как же удобно!</div>
+                <div class="slider-item__text">В рамках спецификации современных стандартов, базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут преданы социально-демократической анафеме.</div>  
+              </div>
+              <div class="slider-item__reviewer">
+                <img class="slider-item__img" src="images/reviewer-1.png" alt="">
+                <div class="slider-item__reviewer-info">
+                  <div class="slider-item__reviewer-name">Анна Купер</div>
+                  <div class="slider-item__reviewer-site">romashka.ru</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__slider-item slider-item">
+              <div class="slider-item__content">
+                <div class="slider-item__title">Теперь мы идем в ногу со временем</div>
+                <div class="slider-item__text">А ещё интерактивные прототипы превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Банальные, но неопровержимые выводы, а также тщательные исследования конкурентов формируют сеть.</div>  
+              </div>
+              <div class="slider-item__reviewer">
+                <img class="slider-item__img" src="images/reviewer-2.png" alt="">
+                <div class="slider-item__reviewer-info">
+                  <div class="slider-item__reviewer-name">Андрей Васильев</div>
+                  <div class="slider-item__reviewer-site">samogon-ont.ru</div>
+                </div>
+              </div>
+            </div>
+    
+        </div>
+      </section>
+    
+      <section class="offer">
+        <div class="container">
+          <div class="offer__inner">
+            <img class="offer__img" src="images/offer-img.svg" alt="">
+            <div class="offer__content">
+              <h3 class="offer__title">Подключите Telegram чат уже сегодня</h3>
+              <form class="offer__form" action="">
+                <input class="offer__form-input" type="email" placeholder="Введите e-mail">
+                <button class="offer__form-btn" type="submit">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <img class="footer__logo" src="images/footer-logo.png" alt="">
+          <div class="footer__list-wrapper footer__list-wrapper--1">
+            <div class="footer__list-title">Telegram чат</div>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">О нас</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Партнеры</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Инструкция</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Цены</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__list-wrapper footer__list-wrapper--2">
+            <div class="footer__list-title">Поддержка</div>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Центр поддержки</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Политика конфеденциальности</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Документы оферта</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Документы оферта</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Статус</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container">
+          <div class="footer__copyright-text">
+            © 2021 Tocha. Все права защищены</div>
+          </div>
+        </div>
+    </footer>  
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
